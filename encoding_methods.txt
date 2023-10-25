@@ -1,0 +1,49 @@
+Binary Encoding: Representing data in binary form (0s and 1s), often used for encoding text, images, and other data for storage and transmission in computers.
+
+Text Encoding: Converting text data, which includes characters, symbols, and letters, into a specific format such as ASCII, UTF-8, or UTF-16 for storage and processing.
+
+Numeric Encoding: Transforming categorical data (e.g., gender, color) into numerical values to make it suitable for machine learning algorithms. This can include label encoding and one-hot encoding.
+
+Base64 Encoding: A method of encoding binary data as ASCII text, commonly used for encoding binary data in email attachments or within URLs.
+
+URL Encoding: Transforming special characters in a URL into a format that can be transmitted over the internet, such as replacing spaces with "%20."
+
+HTML Encoding: Converting special characters in HTML documents into entity references (e.g., "<" for "<") to display correctly in web browsers.
+
+JSON Encoding: Structuring and encoding data in JavaScript Object Notation (JSON) format for easy data exchange between systems.
+
+Image Encoding: Transforming image data into formats like JPEG, PNG, or GIF for storage and transmission.
+
+Audio and Video Encoding: Converting audio and video data into formats like MP3, AAC, H.264, or VP9 for efficient storage and streaming.
+
+Compression Encoding: Reducing the size of data by encoding it in a more compact form, as seen in data compression algorithms such as ZIP, GZIP, and LZ77.
+
+
+-------------method used in ml are ----------------------
+Label Encoding: This is used for encoding categorical variables with ordinal relationships, such as "low," "medium," and "high" represented as 0, 1, and 2, respectively.
+
+One-Hot Encoding (or Dummy Encoding): It's used for nominal categorical variables to convert them into binary vectors with each category represented as a binary feature (0 or 1).
+
+Binary Encoding: Transforming categorical variables into binary code representations to improve model efficiency and accuracy.
+
+Integer Encoding: Assigning unique integers to each category in a categorical variable. This is similar to label encoding but is often used for non-ordinal categories.
+
+Embedding: In Natural Language Processing (NLP) and deep learning, embedding layers are used to transform categorical variables into dense numerical vectors. Word embeddings like Word2Vec and GloVe are common examples.
+
+Scaling (Min-Max Scaling, Standardization): Scaling numerical features to a common range (e.g., [0, 1] with Min-Max Scaling) or standardizing them to have a mean of 0 and standard deviation of 1.
+
+Logarithmic Transformation: Applying logarithmic functions to numerical data to make it more normally distributed or to mitigate the impact of outliers.
+
+Binning: Grouping numerical data into discrete bins or intervals, which can be useful for dealing with continuous variables.
+
+Feature Scaling and Normalization: Scaling numerical features to have similar scales, often essential for algorithms sensitive to feature magnitude, like gradient descent-based methods.
+
+Time-Series Encoding: Specialized encodings like lag features, moving averages, and exponential smoothing for time-series data.
+
+Target Encoding (Mean Encoding): Encoding categorical variables using the mean of the target variable for each category, which is useful for binary classification problems.
+
+Frequency Encoding: Replacing categories with the frequency of their occurrence in the dataset.
+
+Cyclical Encoding: Encoding cyclical features like time or angles to preserve their circular nature (e.g., hours of the day or days of the week).
+
+Geospatial Encoding: Encoding latitude and longitude coordinates or other geospatial data in a way that can be used by ML models.
